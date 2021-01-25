@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Groceries</string>
+    <string name="state">State: %s</string>
+    <string name="district">District: %s</string>
+    <string name="arrival_date">Arrival Date: %s</string>
+    <string name="price">₹ %s</string>
+</resources>
