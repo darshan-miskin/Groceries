@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
         viewModel.liveData.observe(this, { response ->
             adapter.submitList(response)
-            binding.swipeMain.isRefreshing=false
+//            binding.swipeMain.isRefreshing=false
         })
 
  /*       binding.swipeMain.setOnRefreshListener {
